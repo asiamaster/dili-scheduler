@@ -13,7 +13,7 @@ public class DefaultView implements WebMvcConfigurer {
 
 	@Override
 	public void addViewControllers(ViewControllerRegistry registry) {
-		registry.addViewController("/").setViewName("forward:/login/index.html");
+		registry.addViewController("/").setViewName("forward:/scheduleJob/index.html");
 		registry.setOrder(Ordered.HIGHEST_PRECEDENCE);
 	}
 }
