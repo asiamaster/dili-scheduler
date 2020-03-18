@@ -68,8 +68,8 @@
 				<version>3.8.1</version>
 				<!-- 编译JDK版本 -->
 				<configuration>
-					<source>13</source>
-					<target>13</target>
+					<source>8</source>
+					<target></target>
 					<encoding>UTF-8</encoding>
 					<parameters>true</parameters>
 <!--					<compilerArgument>-proc:none</compilerArgument>-->
